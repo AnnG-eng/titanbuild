@@ -1,0 +1,42 @@
+.an {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    background-image: url('PX.jpg');
+    /* or images/construction.png */
+    background-size: cover;
+    /* makes it fill the screen */
+    background-repeat: no-repeat;
+    /* prevents tiling */
+    background-size: cover;
+    background-blend-mode: lighten;
+
+}
+
+.ne {
+    background-color: rgb(180, 146, 146);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+     background-blend-mode: lighten;
+}
+
+.Contact {
+    background-color: rgb(180, 146, 146);
+    background-image: url(anne.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-blend-mode: lighten;
+}
+
+.abo {
+    background-color: rgb(180, 146, 146);
+    background-image: url(anne.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-blend-mode: lighten;
+}
+
+.ani {
+    background-color: rgb(180, 146, 146);
+    ba
+}
