@@ -9,15 +9,19 @@
     /* prevents tiling */
     background-size: cover;
     background-blend-mode: lighten;
+    text-align: center;
+
 
 }
 
 .ne {
     background-color: rgb(180, 146, 146);
     display: flex;
-    justify-content: space-around;
     padding: 10px;
      background-blend-mode: lighten;
+}
+a{
+    margin-left: 150px;
 }
 
 .Contact {
@@ -26,6 +30,8 @@
     background-repeat: no-repeat;
     background-size: cover;
      background-blend-mode: lighten;
+     width: 100%;
+     padding: 60px 20px;
 }
 
 .abo {
@@ -34,9 +40,32 @@
     background-repeat: no-repeat;
     background-size: cover;
      background-blend-mode: lighten;
+     color: blue;
+      width: 100%;
+     padding: 60px 20px;
+     
 }
 
 .ani {
     background-color: rgb(180, 146, 146);
     ba
+}
+h1{
+    color: blue;
+    font-weight: 2000;
+    
+}
+.ng{
+    font-style: oblique;
+}
+h9{
+    color: midnightblue;
+    font-weight: 5000;
+    font-size: 50px;
+    font-style:inherit;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img{
+    height: 550px;
+    width: 400px;
 }
