@@ -18,20 +18,29 @@
     background-color: rgb(180, 146, 146);
     display: flex;
     padding: 10px;
-     background-blend-mode: lighten;
+    background-blend-mode: lighten;
 }
-a{
+
+a {
     margin-left: 150px;
 }
 
 .Contact {
-    background-color: rgb(180, 146, 146);
+    /* background-color: rgb(180, 146, 146);
     background-image: url(anne.jpg);
     background-repeat: no-repeat;
     background-size: cover;
      background-blend-mode: lighten;
      width: 100%;
-     padding: 60px 20px;
+     padding: 60px 20px; */
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('anne.jpg') no-repeat center center/cover;
+    color: azure;
+    padding: 60px 20px;
+    width: 100%;
+    text-align: center;
+
 }
 
 .abo {
@@ -39,33 +48,47 @@ a{
     background-image: url(anne.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-     background-blend-mode: lighten;
-     color: blue;
-      width: 100%;
-     padding: 60px 20px;
-     
+    background-blend-mode: lighten;
+    color: blue;
+    width: 100%;
+    padding: 60px 20px;
+
 }
 
 .ani {
     background-color: rgb(180, 146, 146);
-    ba
-}
-h1{
-    color: blue;
-    font-weight: 2000;
     
 }
-.ng{
+
+h1 {
+    color: blue;
+    font-weight: 2000;
+
+}
+
+.ng {
     font-style: oblique;
 }
-h9{
+
+h9 {
     color: midnightblue;
     font-weight: 5000;
     font-size: 50px;
-    font-style:inherit;
+    font-style: inherit;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.img{
+
+.img {
     height: 550px;
     width: 400px;
+}
+
+ol {
+    list-style: none;
+}
+.ad{
+    color: cornsilk;
+}
+.v{
+    list-style-type: none;
 }
